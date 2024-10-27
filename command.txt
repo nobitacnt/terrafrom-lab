@@ -1,0 +1,11 @@
+====== command ========
+terraform init
+terraform plan
+terraform apply
+terraform destroy
+terraform apply -var-file="testing.tfvars"
+
+====== docs ======
+variable: https://developer.hashicorp.com/terraform/language/values/variables
+aws template: https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/launch_template
+module: https://developer.hashicorp.com/terraform/language/modules
